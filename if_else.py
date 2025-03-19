@@ -16,12 +16,12 @@ else :
 # que determine si  una persona es mayor o menor de edad 
 # y por tanto, habilitada para 
 #votar 
-edad = 20
+edad = input (input("ingrese la edad"))
 documento = False
 if edad >= 18 and documento==True:
     print ("usted es mayor de edad ")
     print("puede votar gansgter")
-else :
+else : 
     print("usted es menor de edad")
     print("O")
     print("no puede votar bro")
